@@ -1,0 +1,82 @@
+body {
+    background: black;
+    font-family: 'Philosopher', sans-serif;
+}
+.blurb h2{
+    color: rgb(10, 148, 153);
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color: #22BDC3;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.key{
+    
+    padding-top: 70px;
+
+}
+.rt{
+    text-align: right;
+}
+.rest{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mainnavbar {
+    font-size: 2.3rem;
+    font-weight: 100;
+
+}
+
+#mainnavbar .nav-link{
+    color: grey;
+}
+#mainnavbar .nav-link:hover{
+    color: white;
+}
+
+#mainnavbar .navbar-brand{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 100;
+}
+#cont{
+    /* color: #22BDC3; */
+    font-weight: 700;
+    font-size: 11.2em;
+    text-shadow: 0px 4px 3px #0D5289,
+				0px 8px 13px #0B3E65,
+				0px 18px 23px #061F33;
+}
+.navbar.scrolled{
+    background: #0C2F4B;
+    transition: background 500ms;
+}
+/* hr{
+	width: 720px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+} */
+
+@media (max-width: 2010px){
+    #cont{
+        font-weight: 700;
+        font-size: 8.4em;
+    }
+} 
+@media (max-width: 1550px){
+    #cont{
+        font-weight: 700;
+        font-size: 6.5em;
+    }
+}
+
