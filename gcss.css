@@ -1,0 +1,30 @@
+/*div{
+	width: 100px;
+	float: left;
+}
+#one{
+background-color: red;
+}
+#two{
+background-color: purple;
+}*/
+img{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+	
+	/*text-decoration: underline;*/
+	 text-decoration: dashed overline;
+	 font-size: 30px;
+	 font-weight: 800;
+	 text-transform: uppercase;
+	 border-bottom: 2px solid #f1f1f1;
+	 /*width: 30%;*/
+	 padding-bottom: 20px;
+text-align: center;
+width: 30%;
+margin-left: 34.98%;
+}

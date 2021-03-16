@@ -1,0 +1,45 @@
+/*p{
+	*border*
+	border: 2px solid blue;
+	
+	* content - Width and height*
+	width: 50%;
+	*width: 50px;*
+	*height:300px;*
+	
+	*padding*
+*padding: 10px;*
+padding-left: 40px;
+
+	*margin*
+	*margin: 100px;*
+	*margin-top: 500px;*
+	*margin: 20px 40px 500px 100px;/*top right bottom left*
+	*margin:  0 auto 0 auto;*
+	margin: 0 auto;
+	margin: 50px 20px
+}*/
+/*tr{
+	width: 100px;
+	height: 100px;
+}*/
+td{
+	width: 100px;
+	height: 100px;
+}
+#middle td{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+tr td:nth-of-type(2){
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+table{
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
