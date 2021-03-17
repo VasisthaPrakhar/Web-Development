@@ -74,9 +74,14 @@ app.get('/products/:id/edit', wrapAsync(async (req, res, next) => {
 }))
 
 app.put('/products/:id', wrapAsync(async (req, res, next) => {
-    const { id } = req.params;
-    const product = await Product.findByIdAndUpdate(id, req.body, { runValidators: true, new: true });
-    res.redirect(`/products/${product._id}`);
+
+   try{
+       const { id } = req.params;
+       const product = await Product.findByIdAndUpdate(id, req.body, { runValidators: true, new: true });
+       res.redirect(`/products/${product._id}`);
+   } catch (e){
+       next(e);
+   }
 }))
 
 app.delete('/products/:id', wrapAsync(async (req, res) => {
