@@ -86,9 +86,9 @@ app.delete('/products/:id', wrapAsync(async (req, res) => {
 }));
 
 const handleValidationErr = err => {
-    console.dir(err);
+    //console.dir(err);
     //In a real app, we would do a lot more here...
-    return new AppError(`Validation Failed...${err.message}`, 400)
+    return new AppError(`Validation Failed...!!!!===${err.message}`, 400)
 }
 
 app.use((err, req, res, next) => {
