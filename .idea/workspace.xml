@@ -19,7 +19,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yelpcamp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,6 +39,7 @@
       <updated>1615882865744</updated>
       <workItem from="1615882867152" duration="17000" />
       <workItem from="1616006597361" duration="5180000" />
+      <workItem from="1616086987747" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="small change">
       <created>1616010780607</created>
@@ -70,6 +71,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="small change" />
